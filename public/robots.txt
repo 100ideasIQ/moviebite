@@ -1,0 +1,50 @@
+# CinemaStream - Robots.txt Configuration
+# Allow crawling of main discovery and category pages
+User-agent: Googlebot
+Allow: /
+Allow: /movies
+Allow: /series  
+Allow: /anime
+Allow: /trending
+Allow: /search
+Disallow: /player/
+Disallow: /anime-player/
+Disallow: /movie/
+Disallow: /tv/
+Disallow: /anime/
+
+User-agent: Bingbot
+Allow: /
+Allow: /movies
+Allow: /series
+Allow: /anime
+Allow: /trending
+Allow: /search
+Disallow: /player/
+Disallow: /anime-player/
+Disallow: /movie/
+Disallow: /tv/
+Disallow: /anime/
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: *
+Allow: /
+Allow: /movies
+Allow: /series
+Allow: /anime
+Allow: /trending
+Allow: /search
+Disallow: /player/
+Disallow: /anime-player/
+Disallow: /movie/
+Disallow: /tv/
+Disallow: /anime/
+Disallow: /api/
+
+# Sitemap location
+Sitemap: https://cinemastream.com/sitemap.xml
